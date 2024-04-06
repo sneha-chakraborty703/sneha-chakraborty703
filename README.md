@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @sneha-chakraborty703
 - 👀 I’m interested in cybersecurity fields...
-- 🌱 I’m currently learning BCA ...
-- 💞️ I’m looking to collaborate on cybersecurity professional..
-- 😄 Pronouns: .her..
+- 🌱 I’m currently learning Microsoft Azure Fundamentals ...
+- 💞️ I’m looking to collaborate on cybersecurity professionals..
+- 😄 Pronouns: .Her..
 
 <!---
 sneha-chakraborty703/sneha-chakraborty703 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
