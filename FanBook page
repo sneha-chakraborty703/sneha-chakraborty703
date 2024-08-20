@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <title>Fan Book Site</title>
+    <style>
+        .mypic {
+            width: 100%;
+            height: 300px;
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://assets.teenvogue.com/photos/62a33c143797b935219af785/1:1/w_1599,h_1599,c_limit/BTS_Proof%20Concept%20Photo_Door%20ver._Group.jpg');
+            background-position: center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .mypost{
+            width: 95%;
+            max-width: 500px;
+            margin: 20px auto 20px auto;
+            padding: 20px;
+            box-shadow: 0px 0px 3px 0px black;
+        }
+        .mypost>button{
+            margin-top: 15px;
+        }
+        .mycards{
+            width: 95%;
+            max-width: 500px;
+            margin: auto;
+        }
+        .mycards>card{
+            margin-top: 10px;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="mypic">
+        <h1>BTS Fan Book</h1>
+    </div>
+    <div class="mypost">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Enter your nickname">
+            <label for="floatingInput">Nickname</label>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a fan message" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Fan message</label>
+          </div>
+          <button type="button" class="btn btn-dark">Leave message</button>
+
+    </div>
+    <div class="mycards">
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>Your new album is so good.</p>
+              <footer class="blockquote-footer">sunshine<cite title="Source Title">2004</cite></footer>
+            </blockquote>
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>keep it up!</p>
+              <footer class="blockquote-footer">your amour <cite title="Source Title">2005</cite></footer>
+            </blockquote>
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>Love from India</p>
+              <footer class="blockquote-footer">saina221 <cite title="Source Title">9090</cite></footer>
+            </blockquote>
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>Marry me!</p>
+              <footer class="blockquote-footer">anjelina345<cite title="Source Title">2006</cite></footer>
+            </blockquote>
+          </div>
+        
+        
+        
+        
+    </div>
+
+</body>
+
+</html>
